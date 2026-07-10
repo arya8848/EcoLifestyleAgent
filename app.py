@@ -45,8 +45,6 @@ if st.button("Ask"):
 
         st.markdown("## 🤖 Answer")
 
-        st.markdown("## 🤖 AI Response")
-
         st.info(answer)
 
         with st.expander("📄 Retrieved Context"):

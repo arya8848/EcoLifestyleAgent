@@ -20,7 +20,7 @@ The application provides personalized eco-friendly suggestions by retrieving rel
 
 - 🌱 AI-powered Eco Lifestyle Assistant
 - 📄 Retrieval-Augmented Generation (RAG)
-- 🤖 IBM Granite Foundation Model
+- 🤖 IBM Granite 4 H Small (granite-4-h-small)
 - 🔍 FAISS Vector Database for semantic search
 - 📚 Answers based on environmental PDF documents
 - 💬 Natural language question answering
@@ -53,12 +53,8 @@ EcoLifestyleAgent/
 ├── rag.py
 ├── build_vector_db.py
 ├── config.py
-├── test_granite.py
-├── test_rag.py
-├── test_rag_granite.py
 ├── requirements.txt
 ├── README.md
-├── .env
 │
 ├── data/
 │   ├── Environmental PDF Files
@@ -77,7 +73,7 @@ EcoLifestyleAgent/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/EcoLifestyleAgent.git
+git clone https://github.com/arya8848/EcoLifestyleAgent.git
 cd EcoLifestyleAgent
 ```
 
@@ -184,6 +180,14 @@ IBM Granite
    ▼
 Generated Answer
 ```
+
+---
+
+## Application Screenshot
+
+![Home](assets/home.png)
+
+![Chat](assets/chat.png)
 
 ---
 
