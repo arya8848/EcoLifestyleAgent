@@ -17,9 +17,6 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Generated vector database
-vector_db/
-
 # OS files
 .DS_Store
 Thumbs.db
